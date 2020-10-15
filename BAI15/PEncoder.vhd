@@ -17,7 +17,7 @@ begin
 		variable dem: std_logic_vector(2 downto 0):="000";
 		variable p_temp: std_logic :='0';
 	for i in 0 to 7 loop
-		if i_vector(i) = '1' then
+		if i_vector(i) = '0' then
 			p_temp <= '1';
 			dem <= std_logic_vector(to_unsigned(i,3));
 		end if;
