@@ -1,0 +1,42 @@
+V3 29
+FL E:/new/hoanchinh/clk_div.vhd 2012/11/14.15:19:00 M.53d
+EN work/clk_div 1353935968 FL E:/new/hoanchinh/clk_div.vhd PB ieee/std_logic_1164 1270894585 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/clk_div/behavioral 1353935969 \
+      FL E:/new/hoanchinh/clk_div.vhd EN work/clk_div 1353935968
+FL E:/new/hoanchinh/ghep.vhd 2012/11/26.20:19:19 M.53d
+EN work/hethong 1353935974 FL E:/new/hoanchinh/ghep.vhd PB ieee/std_logic_1164 1270894585 \
+      PB ieee/std_logic_arith 1270894586 PB ieee/STD_LOGIC_UNSIGNED 1270894587 \
+      LB UNISIM PH unisim/VCOMPONENTS 1270894587 LB XilinxCoreLib
+AR work/hethong/at 1353935975 \
+      FL E:/new/hoanchinh/ghep.vhd EN work/hethong 1353935974 CP uart CP clk_div \
+      CP lcd_driver
+FL E:/new/hoanchinh/lcd_driver.vhd 2012/11/09.21:37:35 M.53d
+EN work/lcd_driver 1353935972 FL E:/new/hoanchinh/lcd_driver.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587 LB UNISIM PH unisim/VCOMPONENTS 1270894587 \
+      LB XilinxCoreLib
+AR work/lcd_driver/Behavioral 1353935973 \
+      FL E:/new/hoanchinh/lcd_driver.vhd EN work/lcd_driver 1353935972 \
+      CP fifo_16x10
+FL E:/new/hoanchinh/rx_uart.vhd 2012/11/24.01:33:39 M.53d
+EN work/rx_uart 1353935966 FL E:/new/hoanchinh/rx_uart.vhd PB ieee/std_logic_1164 1270894585
+AR work/rx_uart/bhv 1353935967 \
+      FL E:/new/hoanchinh/rx_uart.vhd EN work/rx_uart 1353935966
+FL E:/new/hoanchinh/tx_uart.vhd 2012/11/25.00:01:46 M.53d
+EN work/tx_uart 1353935964 FL E:/new/hoanchinh/tx_uart.vhd PB ieee/std_logic_1164 1270894585
+AR work/tx_uart/bhv 1353935965 \
+      FL E:/new/hoanchinh/tx_uart.vhd EN work/tx_uart 1353935964
+FL E:/new/hoanchinh/uart.vhd 2012/11/25.01:24:39 M.53d
+EN work/UART 1353935970 FL E:/new/hoanchinh/uart.vhd PB ieee/std_logic_1164 1270894585 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587 PB ieee/std_logic_arith 1270894586
+AR work/UART/atk 1353935971 \
+      FL E:/new/hoanchinh/uart.vhd EN work/UART 1353935970 CP Tx_uart CP Rx_uart \
+      CP clk_div
+FL "E:/new/THAM KHAO/Board_demo4/ipcore_dir/fifo_16x10.vhd" 2011/09/26.21:00:30 M.53d
+EN work/fifo_16x10 1353935962 \
+      FL "E:/new/THAM KHAO/Board_demo4/ipcore_dir/fifo_16x10.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/fifo_16x10/fifo_16x10_a 1353935963 \
+      FL "E:/new/THAM KHAO/Board_demo4/ipcore_dir/fifo_16x10.vhd" \
+      EN work/fifo_16x10 1353935962

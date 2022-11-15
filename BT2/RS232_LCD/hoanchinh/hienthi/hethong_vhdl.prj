@@ -1,0 +1,7 @@
+vhdl work "E:\new\THAM KHAO\Board_demo4\ipcore_dir\fifo_16x10.vhd"
+vhdl work "E:\new\hoanchinh\tx_uart.vhd"
+vhdl work "E:\new\hoanchinh\rx_uart.vhd"
+vhdl work "E:\new\hoanchinh\clk_div.vhd"
+vhdl work "E:\new\hoanchinh\uart.vhd"
+vhdl work "E:\new\hoanchinh\lcd_driver.vhd"
+vhdl work "E:\new\hoanchinh\ghep.vhd"

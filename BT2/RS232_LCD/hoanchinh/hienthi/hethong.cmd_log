@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "E:/new/hoanchinh/hienthi/hethong.xst" -ofn "E:/new/hoanchinh/hienthi/hethong.syr" 
+xst -intstyle ise -ifn "E:/new/hoanchinh/hienthi/hethong.xst" -ofn "E:/new/hoanchinh/hienthi/hethong.syr" 
+xst -intstyle ise -ifn "E:/new/hoanchinh/hienthi/hethong.xst" -ofn "E:/new/hoanchinh/hienthi/hethong.syr" 
+xst -intstyle ise -ifn "E:/new/hoanchinh/hienthi/hethong.xst" -ofn "E:/new/hoanchinh/hienthi/hethong.syr" 
+xst -intstyle ise -ifn "E:/new/hoanchinh/hienthi/hethong.xst" -ofn "E:/new/hoanchinh/hienthi/hethong.syr" 
+xst -intstyle ise -ifn "E:/new/hoanchinh/hienthi/hethong.xst" -ofn "E:/new/hoanchinh/hienthi/hethong.syr" 
+xst -intstyle ise -ifn "E:/new/hoanchinh/hienthi/hethong.xst" -ofn "E:/new/hoanchinh/hienthi/hethong.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../THAM KHAO/Board_demo4/ipcore_dir" -nt timestamp -uc E:/new/hoanchinh/UART.ucf -p xc3s500e-pq208-5 hethong.ngc hethong.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o hethong_map.ncd hethong.ngd hethong.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd "../../THAM KHAO/Board_demo4/ipcore_dir" -nt timestamp -i -p xc3s500e-pq208-5 hethong.ngc hethong.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o hethong_map.ncd hethong.ngd hethong.pcf 
+par -w -intstyle ise -ol high -t 1 hethong_map.ncd hethong.ncd hethong.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hethong.twx hethong.ncd -o hethong.twr hethong.pcf 
+bitgen -intstyle ise -f hethong.ut hethong.ncd 

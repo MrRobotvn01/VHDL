@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/SLIDE/tklgs/BT19
+T_opt
+Z1 !s110 1592676580
+V97hO4`eAL[gLYR`h0aHIj0
+04 8 4 work bt19test test 1
+=1-d09466f7e4f1-5eee50e4-2ef-2924
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+Ebt19
+Z2 w1592347315
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8BT19.vhd
+Z6 FBT19.vhd
+l0
+L4
+V4a=0TlZJnlUW=OKjP0@XH3
+!s100 XAj>_kkPaUoVd95oHFXBE3
+Z7 OL;C;10.5;63
+32
+R1
+!i10b 1
+Z8 !s108 1592676579.000000
+Z9 !s90 -reportprogress|300|BT19.vhd|
+Z10 !s107 BT19.vhd|
+!i113 0
+Z11 tExplicit 1 CvgOpt 0
+Abehavioral
+R3
+R4
+DEx4 work 4 bt19 0 22 4a=0TlZJnlUW=OKjP0@XH3
+l14
+L11
+V5:FQ[@>mSCXoc6Lgz00DS3
+!s100 5ifiZOgmMFK0Nkaf1kfHW0
+R7
+32
+R1
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+Ebt19test
+Z12 w1592347448
+R3
+R4
+R0
+Z13 8BT19test.vhd
+Z14 FBT19test.vhd
+l0
+L4
+VWEIcKEKBjE?dU8aeUHIE93
+!s100 G:^D0b1mV<0Wal=AH2TKZ0
+R7
+32
+R1
+!i10b 1
+Z15 !s108 1592676580.000000
+Z16 !s90 -reportprogress|300|BT19test.vhd|
+Z17 !s107 BT19test.vhd|
+!i113 0
+R11
+Atest
+R3
+R4
+DEx4 work 8 bt19test 0 22 WEIcKEKBjE?dU8aeUHIE93
+l18
+L7
+V9^6WU?=m>_WMiBze`0d523
+!s100 X=CbOP825J94Cd:@VCo>G1
+R7
+32
+R1
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R11

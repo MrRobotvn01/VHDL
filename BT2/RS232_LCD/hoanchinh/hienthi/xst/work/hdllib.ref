@@ -1,0 +1,14 @@
+EN lcd_driver NULL E:/new/hoanchinh/lcd_driver.vhd sub00/vhpl10 1353935972
+AR fifo_16x10 fifo_16x10_a "E:/new/THAM KHAO/Board_demo4/ipcore_dir/fifo_16x10.vhd" sub00/vhpl01 1353935963
+AR clk_div behavioral E:/new/hoanchinh/clk_div.vhd sub00/vhpl07 1353935969
+AR uart atk E:/new/hoanchinh/uart.vhd sub00/vhpl09 1353935971
+AR lcd_driver behavioral E:/new/hoanchinh/lcd_driver.vhd sub00/vhpl11 1353935973
+AR rx_uart bhv E:/new/hoanchinh/rx_uart.vhd sub00/vhpl05 1353935967
+EN tx_uart NULL E:/new/hoanchinh/tx_uart.vhd sub00/vhpl02 1353935964
+EN rx_uart NULL E:/new/hoanchinh/rx_uart.vhd sub00/vhpl04 1353935966
+EN hethong NULL E:/new/hoanchinh/ghep.vhd sub00/vhpl12 1353935974
+AR tx_uart bhv E:/new/hoanchinh/tx_uart.vhd sub00/vhpl03 1353935965
+AR hethong at E:/new/hoanchinh/ghep.vhd sub00/vhpl13 1353935975
+EN fifo_16x10 NULL "E:/new/THAM KHAO/Board_demo4/ipcore_dir/fifo_16x10.vhd" sub00/vhpl00 1353935962
+EN uart NULL E:/new/hoanchinh/uart.vhd sub00/vhpl08 1353935970
+EN clk_div NULL E:/new/hoanchinh/clk_div.vhd sub00/vhpl06 1353935968

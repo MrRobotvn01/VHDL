@@ -1,0 +1,8 @@
+Release 12.1 Drc M.53d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Mon Nov 26 20:21:44 2012
+
+drc -z hethong.ncd hethong.pcf
+
+DRC detected 0 errors and 0 warnings.

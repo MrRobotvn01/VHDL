@@ -1,0 +1,15 @@
+
+# PlanAhead Generated physical constraints 
+NET "Reset" LOC = P115;
+NET "Rx" LOC = P128;
+NET "Tx" LOC = P129;
+NET "clk" LOC = P80;
+NET "En" LOC = P;
+NET "reg[0]" LOC = P;
+NET "reg[1]" LOC = P;
+NET "reg[2]" LOC = P;
+NET "reg[3]" LOC = P;
+NET "reg[4]" LOC = P;
+NET "reg[5]" LOC = P;
+NET "reg[6]" LOC = P;
+NET "reg[7]" LOC = P;

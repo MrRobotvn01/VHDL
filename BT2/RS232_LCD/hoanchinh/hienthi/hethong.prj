@@ -1,0 +1,7 @@
+vhdl work "../../THAM KHAO/Board_demo4/ipcore_dir/fifo_16x10.vhd"
+vhdl work "../tx_uart.vhd"
+vhdl work "../rx_uart.vhd"
+vhdl work "../clk_div.vhd"
+vhdl work "../uart.vhd"
+vhdl work "../lcd_driver.vhd"
+vhdl work "../ghep.vhd"
